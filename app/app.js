@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const pathname = window.location.pathname;
     setTimeout(() => {
         window.location.href = `https://localeyes.in${pathname}`;
-    }, 3000);
+    }, 5000);
 });
 
 function redirect() {
